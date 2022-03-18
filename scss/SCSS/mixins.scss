@@ -1,0 +1,12 @@
+@mixin vertical-center {
+    min-height: 100%; 
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+};
+@mixin text-font($align , $family , $weight , $size) {
+text-align: $align;
+font-family: $family;
+font-weight: $weight;
+font-size: $size;
+};
